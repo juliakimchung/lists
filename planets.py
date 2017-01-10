@@ -20,4 +20,4 @@ planets_visited = [("earth", "me"),("mars", "cassini"), ("mymoon", "you")]
 print(planets_visited[2])
 for planets in planets_visited:
 	for planet in planets:
-		print(planet)
+		print(planet, sep=" ", end=" ", flush=True)
